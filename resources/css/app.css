@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+}
+.header {
+    background-color: #f0f2f5; /* Light gray background */
+    padding: 1rem 2rem; /* Padding for header content */
+  }
+  
+.header h1 {
+    font-size: 1.5rem; /* Adjust heading size */
+    margin: 0; /* Remove default margin */
+  }
+  
+.header a {
+    color: #333; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 0.5rem 1rem; /* Padding for links */
+    border: 1px solid #ccc; /* Border for links */
+    border-radius: 4px; /* Rounded corners for links */
+  }
+  
+.header a:hover {
+    background-color: #eee; /* Background color on hover */
+  }
+  table {
+    border-collapse: collapse; /* Ensures table borders collapse properly */
+    width: 100%; /* Sets table width to 100% */
+  }
+  
+  th, td {
+    padding: 0.75rem 1rem; /* Padding for table cells */
+    border: 1px solid #ddd; /* Border for table cells */
+  }
+  
+  th {
+    text-align: left; /* Left-align table headers */
+  }
